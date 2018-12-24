@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc3s500e-fg320-5 "EstadoAsc.ngc" EstadoAsc.ngd  
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc3s500e-fg320-5 "EstadoAsc.ngc" EstadoAsc.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o EstadoAsc_map.ncd EstadoAsc.ngd EstadoAsc.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc3s500e-fg320-5 "EstadoAsc.ngc" EstadoAsc.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o EstadoAsc_map.ncd EstadoAsc.ngd EstadoAsc.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc3s500e-fg320-5 "EstadoAsc.ngc" EstadoAsc.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o EstadoAsc_map.ncd EstadoAsc.ngd EstadoAsc.pcf 
+par -w -intstyle ise -ol high -t 1 EstadoAsc_map.ncd EstadoAsc.ncd EstadoAsc.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml EstadoAsc.twx EstadoAsc.ncd -o EstadoAsc.twr EstadoAsc.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f EstadoAsc.ut EstadoAsc.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc3s500e-fg320-5 "EstadoAsc.ngc" EstadoAsc.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o EstadoAsc_map.ncd EstadoAsc.ngd EstadoAsc.pcf 
+par -w -intstyle ise -ol high -t 1 EstadoAsc_map.ncd EstadoAsc.ncd EstadoAsc.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml EstadoAsc.twx EstadoAsc.ncd -o EstadoAsc.twr EstadoAsc.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f EstadoAsc.ut EstadoAsc.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc3s500e-fg320-5 "EstadoAsc.ngc" EstadoAsc.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o EstadoAsc_map.ncd EstadoAsc.ngd EstadoAsc.pcf 
+par -w -intstyle ise -ol high -t 1 EstadoAsc_map.ncd EstadoAsc.ncd EstadoAsc.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml EstadoAsc.twx EstadoAsc.ncd -o EstadoAsc.twr EstadoAsc.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f EstadoAsc.ut EstadoAsc.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc3s500e-fg320-5 "EstadoAsc.ngc" EstadoAsc.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o EstadoAsc_map.ncd EstadoAsc.ngd EstadoAsc.pcf 
+par -w -intstyle ise -ol high -t 1 EstadoAsc_map.ncd EstadoAsc.ncd EstadoAsc.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml EstadoAsc.twx EstadoAsc.ncd -o EstadoAsc.twr EstadoAsc.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f EstadoAsc.ut EstadoAsc.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/EstadoAsc/EstadoAsc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc3s500e-fg320-5 "EstadoAsc.ngc" EstadoAsc.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o EstadoAsc_map.ncd EstadoAsc.ngd EstadoAsc.pcf 
+par -w -intstyle ise -ol high -t 1 EstadoAsc_map.ncd EstadoAsc.ncd EstadoAsc.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml EstadoAsc.twx EstadoAsc.ncd -o EstadoAsc.twr EstadoAsc.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f EstadoAsc.ut EstadoAsc.ncd 

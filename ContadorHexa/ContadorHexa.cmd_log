@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/ContadorHexa/ContadorHexa.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/ContadorHexa/ContadorHexa.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/ContadorHexa/ContadorHexa.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/ContadorHexa/ContadorHexa.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/ContadorHexa/ContadorHexa.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/ContadorHexa/ContadorHexa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc3s500e-fg320-5 "ContadorHexa.ngc" ContadorHexa.ngd  
+xst -intstyle ise -ifn "C:/Documents and Settings/Alumno/Escritorio/Practicas/ContadorHexa/ContadorHexa.xst" -ofn "C:/Documents and Settings/Alumno/Escritorio/Practicas/ContadorHexa/ContadorHexa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc3s500e-fg320-5 "ContadorHexa.ngc" ContadorHexa.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ContadorHexa_map.ncd ContadorHexa.ngd ContadorHexa.pcf 
+par -w -intstyle ise -ol high -t 1 ContadorHexa_map.ncd ContadorHexa.ncd ContadorHexa.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ContadorHexa.twx ContadorHexa.ncd -o ContadorHexa.twr ContadorHexa.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f ContadorHexa.ut ContadorHexa.ncd 

@@ -1,0 +1,16 @@
+net "clk" loc = B8;
+net "ledSal" loc = R4;
+
+net "y<0>" loc = L18;
+net "y<1>" loc = F18;
+net "y<2>" loc = D17;
+net "y<3>" loc = D16;
+net "y<4>" loc = G14;
+net "y<5>" loc = J17;
+net "y<6>" loc = H14;
+net "y<7>" loc = C17;
+
+net "ds<0>" loc = F17;
+net "ds<1>" loc = H17;
+net "ds<2>" loc = C18;
+net "ds<3>" loc = F15;

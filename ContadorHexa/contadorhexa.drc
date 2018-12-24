@@ -1,0 +1,8 @@
+Release 12.4 Drc M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Fri Nov 11 11:40:03 2016
+
+drc -z ContadorHexa.ncd ContadorHexa.pcf
+
+DRC detected 0 errors and 0 warnings.

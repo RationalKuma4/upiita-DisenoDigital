@@ -1,0 +1,10 @@
+//Reloj
+net "clk" loc = B8;
+//Conteo
+net "led" loc = R4;
+//Celector
+net "x" loc = R17;
+
+//Leds de saklida
+net "z<0>" loc = P15;
+net "Z<1>" loc = E17;
