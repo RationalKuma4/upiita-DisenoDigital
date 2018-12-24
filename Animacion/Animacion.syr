@@ -1,0 +1,791 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: Animacion.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Animacion.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Animacion"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Animacion
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Anselmo-PC\Documents\Vhdl\Animacion\Animacion.vhd" into library work
+Parsing entity <Animacion>.
+Parsing architecture <AnimacionArq> of entity <animacion>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Animacion> (architecture <AnimacionArq>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Animacion>.
+    Related source file is "C:\Users\Anselmo-PC\Documents\Vhdl\Animacion\Animacion.vhd".
+    Found 26-bit register for signal <cnt>.
+    Found 1-bit register for signal <led2>.
+    Found 26-bit register for signal <cnt2>.
+    Found 1-bit register for signal <led3>.
+    Found 26-bit register for signal <cnt3>.
+    Found 7-bit register for signal <edo_futuro[6]_dff_36_OUT>.
+    Found 7-bit register for signal <edo_futuro[6]_dff_38_OUT>.
+    Found 1-bit register for signal <led>.
+    Found 1-bit register for signal <edo_presente<6>>.
+    Found 1-bit register for signal <edo_presente<5>>.
+    Found 1-bit register for signal <edo_presente<4>>.
+    Found 1-bit register for signal <edo_presente<3>>.
+    Found 1-bit register for signal <edo_presente<2>>.
+    Found 1-bit register for signal <edo_presente<1>>.
+    Found 1-bit register for signal <edo_presente<0>>.
+    Found 26-bit adder for signal <cnt[0]_GND_5_o_add_4_OUT> created at line 41.
+    Found 26-bit adder for signal <cnt2[0]_GND_5_o_add_11_OUT> created at line 57.
+    Found 26-bit adder for signal <cnt3[0]_GND_5_o_add_18_OUT> created at line 73.
+    Found 128x40-bit Read Only RAM for signal <_n0254>
+WARNING:Xst:737 - Found 1-bit latch for signal <I<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <I<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <I<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred 102 D-type flip-flop(s).
+	inferred   3 Latch(s).
+	inferred   7 Multiplexer(s).
+Unit <Animacion> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 128x40-bit single-port Read Only RAM                  : 1
+# Adders/Subtractors                                   : 3
+ 26-bit adder                                          : 3
+# Registers                                            : 15
+ 1-bit register                                        : 10
+ 26-bit register                                       : 3
+ 7-bit register                                        : 2
+# Latches                                              : 3
+ 1-bit latch                                           : 3
+# Multiplexers                                         : 7
+ 1-bit 2-to-1 multiplexer                              : 7
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <I_0> (without init value) has a constant value of 0 in block <Animacion>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <Animacion>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+The following registers are absorbed into counter <cnt2>: 1 register on signal <cnt2>.
+The following registers are absorbed into counter <cnt3>: 1 register on signal <cnt3>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0254> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 128-word x 40-bit                   |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <edo_presente>  |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <a>             |          |
+    -----------------------------------------------------------------------
+Unit <Animacion> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 128x40-bit single-port distributed Read Only RAM      : 1
+# Counters                                             : 3
+ 26-bit up counter                                     : 3
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+# Multiplexers                                         : 7
+ 1-bit 2-to-1 multiplexer                              : 7
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <I_0> (without init value) has a constant value of 0 in block <Animacion>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    edo_presente_0 in unit <Animacion>
+    edo_presente_1 in unit <Animacion>
+    edo_presente_3 in unit <Animacion>
+    edo_presente_4 in unit <Animacion>
+    edo_presente_2 in unit <Animacion>
+    edo_presente_6 in unit <Animacion>
+    edo_presente_5 in unit <Animacion>
+
+
+Optimizing unit <Animacion> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Animacion, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 109
+ Flip-Flops                                            : 109
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Animacion.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 474
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 75
+#      LUT2                        : 95
+#      LUT3                        : 9
+#      LUT4                        : 17
+#      LUT5                        : 16
+#      LUT6                        : 79
+#      MUXCY                       : 75
+#      MUXF7                       : 25
+#      VCC                         : 1
+#      XORCY                       : 78
+# FlipFlops/Latches                : 118
+#      FD                          : 95
+#      FDC                         : 7
+#      FDP                         : 7
+#      LD                          : 2
+#      LDC                         : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      OBUF                        : 33
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             118  out of  18224     0%  
+ Number of Slice LUTs:                  294  out of   9112     3%  
+    Number used as Logic:               294  out of   9112     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    312
+   Number with an unused Flip Flop:     194  out of    312    62%  
+   Number with an unused LUT:            18  out of    312     5%  
+   Number of fully used LUT-FF pairs:   100  out of    312    32%  
+   Number of unique control sets:        25
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    232    14%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------------------------+----------------------------+-------+
+Clock Signal                                                | Clock buffer(FF name)      | Load  |
+------------------------------------------------------------+----------------------------+-------+
+led2_OBUF                                                   | NONE(_i000040_0)           | 7     |
+led3_OBUF                                                   | NONE(_i000042_0)           | 7     |
+_n0254<37>(Mram__n025437:O)                                 | NONE(*)(I_2)               | 2     |
+clk                                                         | BUFGP                      | 81    |
+I[0]_edo_futuro[6]_AND_3_o(I[0]_edo_futuro[6]_AND_3_o21:O)  | NONE(*)(edo_presente_5_LDC)| 1     |
+led_OBUF                                                    | NONE(edo_presente_5_C_5)   | 14    |
+I[0]_edo_futuro[6]_AND_1_o(I[0]_edo_futuro[6]_AND_1_o21:O)  | NONE(*)(edo_presente_6_LDC)| 1     |
+I[0]_edo_futuro[6]_AND_9_o(I[0]_edo_futuro[6]_AND_9_o11:O)  | NONE(*)(edo_presente_2_LDC)| 1     |
+I[0]_edo_futuro[6]_AND_5_o(I[0]_edo_futuro[6]_AND_5_o21:O)  | NONE(*)(edo_presente_4_LDC)| 1     |
+I[0]_edo_futuro[6]_AND_7_o(I[0]_edo_futuro[6]_AND_7_o21:O)  | NONE(*)(edo_presente_3_LDC)| 1     |
+I[0]_edo_futuro[6]_AND_11_o(I[0]_edo_futuro[6]_AND_11_o21:O)| NONE(*)(edo_presente_1_LDC)| 1     |
+I[0]_edo_futuro[6]_AND_13_o(I[0]_edo_futuro[6]_AND_13_o21:O)| NONE(*)(edo_presente_0_LDC)| 1     |
+------------------------------------------------------------+----------------------------+-------+
+(*) These 8 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.232ns (Maximum Frequency: 236.286MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 8.026ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.037ns (frequency: 247.727MHz)
+  Total number of paths / destination ports: 3240 / 81
+-------------------------------------------------------------------------
+Delay:               4.037ns (Levels of Logic = 3)
+  Source:            cnt_17 (FF)
+  Destination:       cnt_24 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cnt_17 to cnt_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.981  cnt_17 (cnt_17)
+     LUT6:I0->O            5   0.203   0.962  GND_5_o_GND_5_o_equal_1_o<0>14_SW0 (N11)
+     LUT6:I2->O           13   0.203   0.933  GND_5_o_GND_5_o_equal_4_o<0> (GND_5_o_GND_5_o_equal_4_o)
+     LUT2:I1->O            1   0.205   0.000  cnt_24_rstpot (cnt_24_rstpot)
+     FD:D                      0.102          cnt_24
+    ----------------------------------------
+    Total                      4.037ns (1.160ns logic, 2.877ns route)
+                                       (28.7% logic, 71.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'led_OBUF'
+  Clock period: 4.232ns (frequency: 236.286MHz)
+  Total number of paths / destination ports: 188 / 14
+-------------------------------------------------------------------------
+Delay:               4.232ns (Levels of Logic = 3)
+  Source:            edo_presente_1_P_1 (FF)
+  Destination:       edo_presente_5_C_5 (FF)
+  Source Clock:      led_OBUF rising
+  Destination Clock: led_OBUF rising
+
+  Data Path: edo_presente_1_P_1 to edo_presente_5_C_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.447   0.684  edo_presente_1_P_1 (edo_presente_1_P_1)
+     LUT3:I1->O           58   0.203   1.705  edo_presente_11 (edo_presente_1)
+     LUT2:I0->O            4   0.203   0.684  Mram__n025433_SW0 (N118)
+     LUT6:I5->O            4   0.205   0.000  Mram__n025435 (_n0254<35>)
+     FDC:D                     0.102          edo_presente_5_C_5
+    ----------------------------------------
+    Total                      4.232ns (1.160ns logic, 3.072ns route)
+                                       (27.4% logic, 72.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'I[0]_edo_futuro[6]_AND_3_o'
+  Total number of paths / destination ports: 50 / 30
+-------------------------------------------------------------------------
+Offset:              7.367ns (Levels of Logic = 4)
+  Source:            edo_presente_5_LDC (LATCH)
+  Destination:       d<4> (PAD)
+  Source Clock:      I[0]_edo_futuro[6]_AND_3_o falling
+
+  Data Path: edo_presente_5_LDC to d<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.498   0.808  edo_presente_5_LDC (edo_presente_5_LDC)
+     LUT3:I0->O           60   0.205   1.718  edo_presente_51 (edo_presente_5)
+     LUT6:I4->O            1   0.203   0.580  Mram__n0254191 (Mram__n025419)
+     LUT4:I3->O            1   0.205   0.579  Mram__n0254192 (d_4_OBUF)
+     OBUF:I->O                 2.571          d_4_OBUF (d<4>)
+    ----------------------------------------
+    Total                      7.367ns (3.682ns logic, 3.685ns route)
+                                       (50.0% logic, 50.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'led_OBUF'
+  Total number of paths / destination ports: 790 / 30
+-------------------------------------------------------------------------
+Offset:              7.849ns (Levels of Logic = 4)
+  Source:            edo_presente_4_P_4 (FF)
+  Destination:       d<3> (PAD)
+  Source Clock:      led_OBUF rising
+
+  Data Path: edo_presente_4_P_4 to d<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.447   0.684  edo_presente_4_P_4 (edo_presente_4_P_4)
+     LUT3:I1->O           64   0.203   1.984  edo_presente_41 (edo_presente_4)
+     LUT5:I0->O            6   0.203   0.973  Mram__n02546_SW2 (N26)
+     LUT5:I2->O            1   0.205   0.579  Mram__n025416 (d_1_OBUF)
+     OBUF:I->O                 2.571          d_1_OBUF (d<1>)
+    ----------------------------------------
+    Total                      7.849ns (3.629ns logic, 4.220ns route)
+                                       (46.2% logic, 53.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'I[0]_edo_futuro[6]_AND_13_o'
+  Total number of paths / destination ports: 60 / 30
+-------------------------------------------------------------------------
+Offset:              7.644ns (Levels of Logic = 5)
+  Source:            edo_presente_0_LDC (LATCH)
+  Destination:       h<4> (PAD)
+  Source Clock:      I[0]_edo_futuro[6]_AND_13_o falling
+
+  Data Path: edo_presente_0_LDC to h<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.498   0.808  edo_presente_0_LDC (edo_presente_0_LDC)
+     LUT3:I0->O           56   0.205   1.816  edo_presente_01 (edo_presente_0)
+     LUT5:I2->O            2   0.205   0.617  Mram__n025425_SW2 (N98)
+     LUT2:I1->O            1   0.205   0.000  Mram__n025425_G (N177)
+     MUXF7:I1->O           1   0.140   0.579  Mram__n025425 (h_0_OBUF)
+     OBUF:I->O                 2.571          h_0_OBUF (h<0>)
+    ----------------------------------------
+    Total                      7.644ns (3.824ns logic, 3.820ns route)
+                                       (50.0% logic, 50.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'I[0]_edo_futuro[6]_AND_9_o'
+  Total number of paths / destination ports: 60 / 30
+-------------------------------------------------------------------------
+Offset:              7.899ns (Levels of Logic = 4)
+  Source:            edo_presente_2_LDC (LATCH)
+  Destination:       d<3> (PAD)
+  Source Clock:      I[0]_edo_futuro[6]_AND_9_o falling
+
+  Data Path: edo_presente_2_LDC to d<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.498   0.808  edo_presente_2_LDC (edo_presente_2_LDC)
+     LUT3:I0->O           62   0.205   1.855  edo_presente_21 (edo_presente_2)
+     LUT5:I2->O            6   0.205   0.973  Mram__n02546_SW2 (N26)
+     LUT5:I2->O            1   0.205   0.579  Mram__n025416 (d_1_OBUF)
+     OBUF:I->O                 2.571          d_1_OBUF (d<1>)
+    ----------------------------------------
+    Total                      7.899ns (3.684ns logic, 4.215ns route)
+                                       (46.6% logic, 53.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'I[0]_edo_futuro[6]_AND_11_o'
+  Total number of paths / destination ports: 62 / 30
+-------------------------------------------------------------------------
+Offset:              7.746ns (Levels of Logic = 4)
+  Source:            edo_presente_1_LDC (LATCH)
+  Destination:       d<3> (PAD)
+  Source Clock:      I[0]_edo_futuro[6]_AND_11_o falling
+
+  Data Path: edo_presente_1_LDC to d<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.498   0.808  edo_presente_1_LDC (edo_presente_1_LDC)
+     LUT3:I0->O           58   0.205   1.705  edo_presente_11 (edo_presente_1)
+     LUT5:I3->O            6   0.203   0.973  Mram__n02546_SW2 (N26)
+     LUT5:I2->O            1   0.205   0.579  Mram__n025416 (d_1_OBUF)
+     OBUF:I->O                 2.571          d_1_OBUF (d<1>)
+    ----------------------------------------
+    Total                      7.746ns (3.682ns logic, 4.064ns route)
+                                       (47.5% logic, 52.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'I[0]_edo_futuro[6]_AND_7_o'
+  Total number of paths / destination ports: 63 / 30
+-------------------------------------------------------------------------
+Offset:              7.922ns (Levels of Logic = 4)
+  Source:            edo_presente_3_LDC (LATCH)
+  Destination:       d<3> (PAD)
+  Source Clock:      I[0]_edo_futuro[6]_AND_7_o falling
+
+  Data Path: edo_presente_3_LDC to d<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.498   0.808  edo_presente_3_LDC (edo_presente_3_LDC)
+     LUT3:I0->O           63   0.205   1.881  edo_presente_31 (edo_presente_3)
+     LUT5:I1->O            6   0.203   0.973  Mram__n02546_SW2 (N26)
+     LUT5:I2->O            1   0.205   0.579  Mram__n025416 (d_1_OBUF)
+     OBUF:I->O                 2.571          d_1_OBUF (d<1>)
+    ----------------------------------------
+    Total                      7.922ns (3.682ns logic, 4.240ns route)
+                                       (46.5% logic, 53.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'I[0]_edo_futuro[6]_AND_5_o'
+  Total number of paths / destination ports: 63 / 30
+-------------------------------------------------------------------------
+Offset:              8.026ns (Levels of Logic = 4)
+  Source:            edo_presente_4_LDC (LATCH)
+  Destination:       d<3> (PAD)
+  Source Clock:      I[0]_edo_futuro[6]_AND_5_o falling
+
+  Data Path: edo_presente_4_LDC to d<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.498   0.808  edo_presente_4_LDC (edo_presente_4_LDC)
+     LUT3:I0->O           64   0.205   1.984  edo_presente_41 (edo_presente_4)
+     LUT5:I0->O            6   0.203   0.973  Mram__n02546_SW2 (N26)
+     LUT5:I2->O            1   0.205   0.579  Mram__n025416 (d_1_OBUF)
+     OBUF:I->O                 2.571          d_1_OBUF (d<1>)
+    ----------------------------------------
+    Total                      8.026ns (3.682ns logic, 4.344ns route)
+                                       (45.9% logic, 54.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'I[0]_edo_futuro[6]_AND_1_o'
+  Total number of paths / destination ports: 37 / 30
+-------------------------------------------------------------------------
+Offset:              6.873ns (Levels of Logic = 4)
+  Source:            edo_presente_6_LDC (LATCH)
+  Destination:       a<3> (PAD)
+  Source Clock:      I[0]_edo_futuro[6]_AND_1_o falling
+
+  Data Path: edo_presente_6_LDC to a<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.498   0.808  edo_presente_6_LDC (edo_presente_6_LDC)
+     LUT3:I0->O           47   0.205   1.869  edo_presente_61 (edo_presente_6)
+     LUT6:I0->O            1   0.203   0.000  Mram__n025411_G (N135)
+     MUXF7:I1->O           1   0.140   0.579  Mram__n025411 (a_1_OBUF)
+     OBUF:I->O                 2.571          a_1_OBUF (a<1>)
+    ----------------------------------------
+    Total                      6.873ns (3.617ns logic, 3.256ns route)
+                                       (52.6% logic, 47.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.022ns (Levels of Logic = 1)
+  Source:            led (FF)
+  Destination:       led (PAD)
+  Source Clock:      clk rising
+
+  Data Path: led to led
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              16   0.447   1.004  led (led_OBUF)
+     OBUF:I->O                 2.571          led_OBUF (led)
+    ----------------------------------------
+    Total                      4.022ns (3.018ns logic, 1.004ns route)
+                                       (75.0% logic, 25.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock I[0]_edo_futuro[6]_AND_11_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+_n0254<37>     |         |         |    2.952|         |
+led2_OBUF      |         |         |    2.316|         |
+led3_OBUF      |         |         |    2.418|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I[0]_edo_futuro[6]_AND_13_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+_n0254<37>     |         |         |    2.952|         |
+led2_OBUF      |         |         |    2.316|         |
+led3_OBUF      |         |         |    2.418|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I[0]_edo_futuro[6]_AND_1_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+_n0254<37>     |         |         |    2.952|         |
+led2_OBUF      |         |         |    2.316|         |
+led3_OBUF      |         |         |    2.418|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I[0]_edo_futuro[6]_AND_3_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+_n0254<37>     |         |         |    2.952|         |
+led2_OBUF      |         |         |    2.316|         |
+led3_OBUF      |         |         |    2.418|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I[0]_edo_futuro[6]_AND_5_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+_n0254<37>     |         |         |    2.952|         |
+led2_OBUF      |         |         |    2.316|         |
+led3_OBUF      |         |         |    2.418|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I[0]_edo_futuro[6]_AND_7_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+_n0254<37>     |         |         |    2.952|         |
+led2_OBUF      |         |         |    2.316|         |
+led3_OBUF      |         |         |    2.418|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I[0]_edo_futuro[6]_AND_9_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+_n0254<37>     |         |         |    2.952|         |
+led2_OBUF      |         |         |    2.316|         |
+led3_OBUF      |         |         |    2.418|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock _n0254<37>
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+I[0]_edo_futuro[6]_AND_11_o|         |         |    4.278|         |
+I[0]_edo_futuro[6]_AND_13_o|         |         |    4.163|         |
+I[0]_edo_futuro[6]_AND_1_o |         |         |    3.620|         |
+I[0]_edo_futuro[6]_AND_3_o |         |         |    3.729|         |
+I[0]_edo_futuro[6]_AND_5_o |         |         |    3.638|         |
+I[0]_edo_futuro[6]_AND_7_o |         |         |    3.615|         |
+I[0]_edo_futuro[6]_AND_9_o |         |         |    3.608|         |
+led_OBUF                   |         |         |    4.101|         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.037|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock led2_OBUF
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+I[0]_edo_futuro[6]_AND_11_o|         |    4.409|         |         |
+I[0]_edo_futuro[6]_AND_13_o|         |    4.294|         |         |
+I[0]_edo_futuro[6]_AND_1_o |         |    3.685|         |         |
+I[0]_edo_futuro[6]_AND_3_o |         |    3.774|         |         |
+I[0]_edo_futuro[6]_AND_5_o |         |    3.703|         |         |
+I[0]_edo_futuro[6]_AND_7_o |         |    3.680|         |         |
+I[0]_edo_futuro[6]_AND_9_o |         |    3.690|         |         |
+led_OBUF                   |    4.232|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock led3_OBUF
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+I[0]_edo_futuro[6]_AND_11_o|         |    4.409|         |         |
+I[0]_edo_futuro[6]_AND_13_o|         |    4.294|         |         |
+I[0]_edo_futuro[6]_AND_1_o |         |    3.685|         |         |
+I[0]_edo_futuro[6]_AND_3_o |         |    3.774|         |         |
+I[0]_edo_futuro[6]_AND_5_o |         |    3.703|         |         |
+I[0]_edo_futuro[6]_AND_7_o |         |    3.680|         |         |
+I[0]_edo_futuro[6]_AND_9_o |         |    3.690|         |         |
+led_OBUF                   |    4.232|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock led_OBUF
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+I[0]_edo_futuro[6]_AND_11_o|         |    4.409|         |         |
+I[0]_edo_futuro[6]_AND_13_o|         |    4.294|         |         |
+I[0]_edo_futuro[6]_AND_1_o |         |    3.685|         |         |
+I[0]_edo_futuro[6]_AND_3_o |         |    3.774|         |         |
+I[0]_edo_futuro[6]_AND_5_o |         |    3.703|         |         |
+I[0]_edo_futuro[6]_AND_7_o |         |    3.680|         |         |
+I[0]_edo_futuro[6]_AND_9_o |         |    3.690|         |         |
+_n0254<37>                 |         |    2.952|         |         |
+led2_OBUF                  |    2.418|         |         |         |
+led3_OBUF                  |    2.418|         |         |         |
+led_OBUF                   |    4.232|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.38 secs
+ 
+--> 
+
+Total memory usage is 297724 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

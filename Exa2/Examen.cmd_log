@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Exa2/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Exa2/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Exa2/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Exa2/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Exa2/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Exa2/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  

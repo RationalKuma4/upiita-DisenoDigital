@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Hola.ngc Hola.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Hola_map.ncd Hola.ngd Hola.pcf 
+par -w -intstyle ise -ol high -mt off Hola_map.ncd Hola.ncd Hola.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Hola.twx Hola.ncd -o Hola.twr Hola.pcf 
+bitgen -intstyle ise -f Hola.ut Hola.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Hola.ngc Hola.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Hola_map.ncd Hola.ngd Hola.pcf 
+par -w -intstyle ise -ol high -mt off Hola_map.ncd Hola.ncd Hola.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Hola.twx Hola.ncd -o Hola.twr Hola.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Hola.ut Hola.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Hola.ngc Hola.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Hola_map.ncd Hola.ngd Hola.pcf 
+par -w -intstyle ise -ol high -mt off Hola_map.ncd Hola.ncd Hola.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Hola.twx Hola.ncd -o Hola.twr Hola.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Hola.ut Hola.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Hola.ngc Hola.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Hola_map.ncd Hola.ngd Hola.pcf 
+par -w -intstyle ise -ol high -mt off Hola_map.ncd Hola.ncd Hola.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Hola.twx Hola.ncd -o Hola.twr Hola.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Hola.ut Hola.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Hola/Hola.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Hola.ngc Hola.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Hola_map.ncd Hola.ngd Hola.pcf 
+par -w -intstyle ise -ol high -mt off Hola_map.ncd Hola.ncd Hola.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Hola.twx Hola.ncd -o Hola.twr Hola.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Hola.ut Hola.ncd 

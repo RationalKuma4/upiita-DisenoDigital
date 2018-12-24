@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Anselmo-PC\Documents\Vhdl\Estados\Estado.ncd
+OUTFILE=C:\Users\Anselmo-PC\Documents\Vhdl\Estados\Estado.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Anselmo-PC\Documents\Vhdl\Estados
+LICENSE=WebPack
+USER_INFO=211260816_0_0_554

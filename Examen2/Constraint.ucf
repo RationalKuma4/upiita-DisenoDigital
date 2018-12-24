@@ -1,0 +1,30 @@
+//Reloj
+net "clk" loc = V10;
+net "led" loc = T11;
+
+#NET  "salida<7>"   LOC = T17; # dp
+#NET  "salida<6>"   LOC = T18; # g
+#NET  "salida<5>"   LOC = U17; # f
+#NET  "salida<4>"   LOC = U18; # e
+#NET  "salida<3>"   LOC = M14; # d
+#NET  "salida<2>"   LOC = N14; # c
+#NET  "salida<1>"   LOC = L14; # b
+#NET  "salida<0>"   LOC = M13; # a
+
+net "s0" loc = T9;
+net "s1" loc = T10;
+
+//Displays
+net "ds<0>" loc = P17;
+net "ds<1>" loc = P18;
+net "ds<2>" loc = N15;
+net "ds<3>" loc = N16;
+
+net "dis0<0>" loc = T17;
+net "dis0<1>" loc = T18;
+net "dis0<2>" loc = U17;
+net "dis0<3>" loc = U18;
+net "dis0<4>" loc = M14;
+net "dis0<5>" loc = N14;
+net "dis0<6>" loc = L14;
+net "dis0<7>" loc = M13;

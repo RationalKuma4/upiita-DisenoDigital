@@ -1,0 +1,182 @@
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Animacion/Animacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constra.ucf -p xc6slx16-csg324-3 Animacion.ngc Animacion.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Animacion_map.ncd Animacion.ngd Animacion.pcf 
+par -w -intstyle ise -ol high -mt off Animacion_map.ncd Animacion.ncd Animacion.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Animacion.twx Animacion.ncd -o Animacion.twr Animacion.pcf -ucf Constra.ucf 
+bitgen -intstyle ise -f Animacion.ut Animacion.ncd 

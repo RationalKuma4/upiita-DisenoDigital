@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc6slx16-csg324-3 Estado.ngc Estado.ngd  
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc6slx16-csg324-3 Estado.ngc Estado.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Estado_map.ncd Estado.ngd Estado.pcf 
+par -w -intstyle ise -ol high -mt off Estado_map.ncd Estado.ncd Estado.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Estado.twx Estado.ncd -o Estado.twr Estado.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f Estado.ut Estado.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc6slx16-csg324-3 Estado.ngc Estado.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Estado_map.ncd Estado.ngd Estado.pcf 
+par -w -intstyle ise -ol high -mt off Estado_map.ncd Estado.ncd Estado.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Estado.twx Estado.ncd -o Estado.twr Estado.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f Estado.ut Estado.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc6slx16-csg324-3 Estado.ngc Estado.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Estado_map.ncd Estado.ngd Estado.pcf 
+par -w -intstyle ise -ol high -mt off Estado_map.ncd Estado.ncd Estado.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Estado.twx Estado.ncd -o Estado.twr Estado.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f Estado.ut Estado.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc6slx16-csg324-3 Estado.ngc Estado.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Estado_map.ncd Estado.ngd Estado.pcf 
+par -w -intstyle ise -ol high -mt off Estado_map.ncd Estado.ncd Estado.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Estado.twx Estado.ncd -o Estado.twr Estado.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f Estado.ut Estado.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Estados/Estado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc6slx16-csg324-3 Estado.ngc Estado.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Estado_map.ncd Estado.ngd Estado.pcf 
+par -w -intstyle ise -ol high -mt off Estado_map.ncd Estado.ncd Estado.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Estado.twx Estado.ncd -o Estado.twr Estado.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f Estado.ut Estado.ncd 

@@ -1,0 +1,65 @@
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Relojes.ngc Relojes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Relojes_map.ncd Relojes.ngd Relojes.pcf 
+par -w -intstyle ise -ol high -mt off Relojes_map.ncd Relojes.ncd Relojes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Relojes.twx Relojes.ncd -o Relojes.twr Relojes.pcf 
+bitgen -intstyle ise -f Relojes.ut Relojes.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Relojes.ngc Relojes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Relojes_map.ncd Relojes.ngd Relojes.pcf 
+par -w -intstyle ise -ol high -mt off Relojes_map.ncd Relojes.ncd Relojes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Relojes.twx Relojes.ncd -o Relojes.twr Relojes.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Relojes.ut Relojes.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Relojes.ngc Relojes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Relojes_map.ncd Relojes.ngd Relojes.pcf 
+par -w -intstyle ise -ol high -mt off Relojes_map.ncd Relojes.ncd Relojes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Relojes.twx Relojes.ncd -o Relojes.twr Relojes.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Relojes.ut Relojes.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Relojes.ngc Relojes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Relojes_map.ncd Relojes.ngd Relojes.pcf 
+par -w -intstyle ise -ol high -mt off Relojes_map.ncd Relojes.ncd Relojes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Relojes.twx Relojes.ncd -o Relojes.twr Relojes.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Relojes.ut Relojes.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Relojes.ngc Relojes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Relojes_map.ncd Relojes.ngd Relojes.pcf 
+par -w -intstyle ise -ol high -mt off Relojes_map.ncd Relojes.ncd Relojes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Relojes.twx Relojes.ncd -o Relojes.twr Relojes.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Relojes.ut Relojes.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Relojes.ngc Relojes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Relojes_map.ncd Relojes.ngd Relojes.pcf 
+par -w -intstyle ise -ol high -mt off Relojes_map.ncd Relojes.ncd Relojes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Relojes.twx Relojes.ncd -o Relojes.twr Relojes.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Relojes.ut Relojes.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ExamenRelojes/Relojes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Relojes.ngc Relojes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Relojes_map.ncd Relojes.ngd Relojes.pcf 
+par -w -intstyle ise -ol high -mt off Relojes_map.ncd Relojes.ncd Relojes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Relojes.twx Relojes.ncd -o Relojes.twr Relojes.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Relojes.ut Relojes.ncd 

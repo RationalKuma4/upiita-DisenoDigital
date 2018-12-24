@@ -1,0 +1,7 @@
+net "clk" loc = V10;
+net "led" loc = T11;
+
+net "x" loc = T10;
+net "z<0>" loc = R11;
+net "z<1>" loc = N11;
+

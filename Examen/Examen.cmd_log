@@ -1,0 +1,126 @@
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Const.ucf -p xc6slx16-csg324-3 Examen.ngc Examen.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Examen_map.ncd Examen.ngd Examen.pcf 
+par -w -intstyle ise -ol high -mt off Examen_map.ncd Examen.ncd Examen.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Examen.twx Examen.ncd -o Examen.twr Examen.pcf -ucf Const.ucf 
+bitgen -intstyle ise -f Examen.ut Examen.ncd 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Examen/Examen.syr" 

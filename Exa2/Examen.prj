@@ -1,0 +1,4 @@
+vhdl work "siete_segmentos_mux.vhd"
+vhdl work "siete_segmentos.vhd"
+vhdl work "clk200Hz.vhd"
+vhdl work "Examen.vhd"

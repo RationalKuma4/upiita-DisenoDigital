@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/ContadorHex/ContHex.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/ContadorHex/ContHex.syr" 

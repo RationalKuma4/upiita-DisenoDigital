@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Prueba/VhdlPrueba.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Prueba/VhdlPrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 VhdlPrueba.ngc VhdlPrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VhdlPrueba_map.ncd VhdlPrueba.ngd VhdlPrueba.pcf 
+xst -intstyle ise -ifn "C:/Users/Anselmo-PC/Documents/Vhdl/Prueba/VhdlPrueba.xst" -ofn "C:/Users/Anselmo-PC/Documents/Vhdl/Prueba/VhdlPrueba.syr" 

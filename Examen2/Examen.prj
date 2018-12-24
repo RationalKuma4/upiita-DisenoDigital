@@ -1,0 +1,4 @@
+vhdl work "SieteDisplay.vhd"
+vhdl work "SegmentoMux.vhd"
+vhdl work "Reloj10.vhd"
+vhdl work "Examen.vhd"

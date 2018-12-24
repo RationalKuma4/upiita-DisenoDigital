@@ -1,0 +1,539 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: Marquesina.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Marquesina.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Marquesina"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Marquesina
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Anselmo-PC\Documents\Vhdl\ExamenMarquesina\Marquesina.vhd" into library work
+Parsing entity <Marquesina>.
+Parsing architecture <MarquesinaArq> of entity <marquesina>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Marquesina> (architecture <MarquesinaArq>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Marquesina>.
+    Related source file is "C:\Users\Anselmo-PC\Documents\Vhdl\ExamenMarquesina\Marquesina.vhd".
+    Found 26-bit register for signal <cnt>.
+    Found 1-bit register for signal <ledM>.
+    Found 24-bit register for signal <cntMensaje>.
+    Found 2-bit register for signal <edoPresente>.
+    Found 2-bit register for signal <pasoPresente>.
+    Found 1-bit register for signal <led>.
+    Found finite state machine <FSM_0> for signal <edoPresente>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 2                                              |
+    | Clock              | led (rising_edge)                              |
+    | Power Up State     | d0                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <pasoPresente>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 2                                              |
+    | Clock              | ledM (rising_edge)                             |
+    | Power Up State     | e0                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 26-bit adder for signal <cnt[0]_GND_5_o_add_4_OUT> created at line 40.
+    Found 24-bit adder for signal <cntMensaje[0]_GND_5_o_add_11_OUT> created at line 59.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  52 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <Marquesina> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 1
+# Registers                                            : 4
+ 1-bit register                                        : 2
+ 24-bit register                                       : 1
+ 26-bit register                                       : 1
+# Multiplexers                                         : 1
+ 8-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Marquesina>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+The following registers are absorbed into counter <cntMensaje>: 1 register on signal <cntMensaje>.
+Unit <Marquesina> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 24-bit up counter                                     : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <edoPresente[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ d0    | 00
+ d1    | 01
+ d2    | 10
+ d3    | 11
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_1> on signal <pasoPresente[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ e0    | 00
+ e1    | 01
+ e2    | 10
+ e3    | 11
+-------------------
+
+Optimizing unit <Marquesina> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Marquesina, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 56
+ Flip-Flops                                            : 56
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Marquesina.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 231
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 48
+#      LUT2                        : 35
+#      LUT3                        : 1
+#      LUT4                        : 1
+#      LUT5                        : 24
+#      LUT6                        : 18
+#      MUXCY                       : 48
+#      VCC                         : 1
+#      XORCY                       : 50
+# FlipFlops/Latches                : 56
+#      FD                          : 56
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 1
+#      OBUF                        : 18
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              56  out of  18224     0%  
+ Number of Slice LUTs:                  131  out of   9112     1%  
+    Number used as Logic:               131  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    131
+   Number with an unused Flip Flop:      75  out of    131    57%  
+   Number with an unused LUT:             0  out of    131     0%  
+   Number of fully used LUT-FF pairs:    56  out of    131    42%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    232     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)      | Load  |
+-----------------------------------+----------------------------+-------+
+led_OBUF                           | NONE(edoPresente_FSM_FFd2) | 2     |
+ledM_OBUF                          | NONE(pasoPresente_FSM_FFd2)| 2     |
+clk                                | BUFGP                      | 52    |
+-----------------------------------+----------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.537ns (Maximum Frequency: 220.409MHz)
+   Minimum input arrival time before clock: 2.337ns
+   Maximum output required time after clock: 4.686ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'led_OBUF'
+  Clock period: 2.106ns (frequency: 474.721MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.106ns (Levels of Logic = 1)
+  Source:            edoPresente_FSM_FFd2 (FF)
+  Destination:       edoPresente_FSM_FFd2 (FF)
+  Source Clock:      led_OBUF rising
+  Destination Clock: led_OBUF rising
+
+  Data Path: edoPresente_FSM_FFd2 to edoPresente_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.447   0.773  edoPresente_FSM_FFd2 (edoPresente_FSM_FFd2)
+     INV:I->O              1   0.206   0.579  edoPresente_FSM_FFd2-In1_INV_0 (edoPresente_FSM_FFd2-In)
+     FD:D                      0.102          edoPresente_FSM_FFd2
+    ----------------------------------------
+    Total                      2.106ns (0.755ns logic, 1.352ns route)
+                                       (35.8% logic, 64.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ledM_OBUF'
+  Clock period: 2.048ns (frequency: 488.317MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.048ns (Levels of Logic = 1)
+  Source:            pasoPresente_FSM_FFd2 (FF)
+  Destination:       pasoPresente_FSM_FFd2 (FF)
+  Source Clock:      ledM_OBUF rising
+  Destination Clock: ledM_OBUF rising
+
+  Data Path: pasoPresente_FSM_FFd2 to pasoPresente_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   0.714  pasoPresente_FSM_FFd2 (pasoPresente_FSM_FFd2)
+     INV:I->O              1   0.206   0.579  pasoPresente_FSM_FFd2-In1_INV_0 (pasoPresente_FSM_FFd2-In)
+     FD:D                      0.102          pasoPresente_FSM_FFd2
+    ----------------------------------------
+    Total                      2.048ns (0.755ns logic, 1.293ns route)
+                                       (36.9% logic, 63.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.537ns (frequency: 220.409MHz)
+  Total number of paths / destination ports: 2005 / 52
+-------------------------------------------------------------------------
+Delay:               4.537ns (Levels of Logic = 3)
+  Source:            cntMensaje_23 (FF)
+  Destination:       ledM (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cntMensaje_23 to ledM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.981  cntMensaje_23 (cntMensaje_23)
+     LUT6:I0->O           26   0.203   1.454  GND_5_o_GND_5_o_equal_11_o<0>11 (GND_5_o_GND_5_o_equal_11_o<0>11)
+     LUT4:I0->O            1   0.203   0.944  GND_5_o_GND_5_o_equal_11_o<0>4 (GND_5_o_GND_5_o_equal_11_o)
+     LUT6:I0->O            1   0.203   0.000  ledM_rstpot (ledM_rstpot)
+     FD:D                      0.102          ledM
+    ----------------------------------------
+    Total                      4.537ns (1.158ns logic, 3.379ns route)
+                                       (25.5% logic, 74.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'led_OBUF'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.337ns (Levels of Logic = 2)
+  Source:            s1 (PAD)
+  Destination:       edoPresente_FSM_FFd1 (FF)
+  Destination Clock: led_OBUF rising
+
+  Data Path: s1 to edoPresente_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.808  s1_IBUF (s1_IBUF)
+     LUT3:I0->O            1   0.205   0.000  edoPresente_FSM_FFd1-In21 (edoPresente_FSM_FFd1-In)
+     FD:D                      0.102          edoPresente_FSM_FFd1
+    ----------------------------------------
+    Total                      2.337ns (1.529ns logic, 0.808ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'led_OBUF'
+  Total number of paths / destination ports: 12 / 7
+-------------------------------------------------------------------------
+Offset:              4.686ns (Levels of Logic = 2)
+  Source:            edoPresente_FSM_FFd1 (FF)
+  Destination:       dis0<6> (PAD)
+  Source Clock:      led_OBUF rising
+
+  Data Path: edoPresente_FSM_FFd1 to dis0<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.447   0.849  edoPresente_FSM_FFd1 (edoPresente_FSM_FFd1)
+     LUT2:I0->O            2   0.203   0.616  dis0<6>1 (dis0_6_OBUF)
+     OBUF:I->O                 2.571          dis0_6_OBUF (dis0<6>)
+    ----------------------------------------
+    Total                      4.686ns (3.221ns logic, 1.465ns route)
+                                       (68.7% logic, 31.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ledM_OBUF'
+  Total number of paths / destination ports: 7 / 5
+-------------------------------------------------------------------------
+Offset:              4.619ns (Levels of Logic = 2)
+  Source:            pasoPresente_FSM_FFd1 (FF)
+  Destination:       ds<2> (PAD)
+  Source Clock:      ledM_OBUF rising
+
+  Data Path: pasoPresente_FSM_FFd1 to ds<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   0.819  pasoPresente_FSM_FFd1 (pasoPresente_FSM_FFd1)
+     LUT2:I0->O            1   0.203   0.579  _n01591 (ds_2_OBUF)
+     OBUF:I->O                 2.571          ds_2_OBUF (ds<2>)
+    ----------------------------------------
+    Total                      4.619ns (3.221ns logic, 1.398ns route)
+                                       (69.7% logic, 30.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.701ns (Levels of Logic = 1)
+  Source:            led (FF)
+  Destination:       led (PAD)
+  Source Clock:      clk rising
+
+  Data Path: led to led
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.447   0.683  led (led_OBUF)
+     OBUF:I->O                 2.571          led_OBUF (led)
+    ----------------------------------------
+    Total                      3.701ns (3.018ns logic, 0.683ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.537|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ledM_OBUF
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ledM_OBUF      |    2.048|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock led_OBUF
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+led_OBUF       |    2.106|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.29 secs
+ 
+--> 
+
+Total memory usage is 296288 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

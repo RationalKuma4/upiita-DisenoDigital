@@ -1,0 +1,77 @@
+net "clk" loc = V10;
+net "led" loc = T11;
+
+net "h<0>" LOC = F10;
+net "h<1>" LOC = F11;
+net "h<2>" LOC = E11;
+net "h<3>" LOC = D12;
+net "h<4>" LOC = C12;
+
+net "a<0>" LOC = T12;
+net "a<1>" LOC = V12;
+net "a<2>" LOC = N10;
+net "a<3>" LOC = P11;
+net "a<4>" LOC = M10;
+
+net "b<0>" LOC = N9;
+net "b<1>" LOC = U11;
+net "b<2>" LOC = V11;
+net "b<3>" LOC = K2;
+net "b<4>" LOC = K1;
+
+net "c<0>" LOC = L4;
+net "c<1>" LOC = L3;
+net "c<2>" LOC = J3;
+net "c<3>" LOC = J1;
+net "c<4>" LOC = K3;
+
+net "d<0>" LOC = K5;
+net "d<1>" LOC = H3;
+net "d<2>" LOC = L7;
+net "d<3>" LOC = K6;
+net "d<4>" LOC = G3;
+
+net "e<0>" LOC = G1;
+net "e<1>" LOC = J7;
+net "e<2>" LOC = J6;
+net "e<3>" LOC = F2;
+net "e<4>" LOC = G11;
+#######################################
+
+net "clk" loc = B8;
+
+net "h<0>" LOC = M18;
+net "h<1>" LOC = N18;
+net "h<2>" LOC = P18;
+net "h<3>" LOC = K14;
+net "h<4>" LOC = K15;
+
+net "a<0>" LOC = L15;
+net "a<1>" LOC = K12;
+net "a<2>" LOC = L17;
+net "a<3>" LOC = M15;
+net "a<4>" LOC = K13;
+
+net "b<0>" LOC = L16;
+net "b<1>" LOC = M14;
+net "b<2>" LOC = M16;
+net "b<3>" LOC = M13;
+net "b<4>" LOC = R18;
+
+net "c<0>" LOC = R15;
+net "c<1>" LOC = T17;
+net "c<2>" LOC = P17;
+net "c<3>" LOC = R16;
+net "c<4>" LOC = T18;
+
+net "d<0>" LOC = U18;
+net "d<1>" LOC = G15;
+net "d<2>" LOC = J16;
+net "d<3>" LOC = G13;
+net "d<4>" LOC = H16;
+
+net "e<0>" LOC = H15;
+net "e<1>" LOC = F14;
+net "e<2>" LOC = G16;
+net "e<3>" LOC = J23;
+net "e<4>" LOC = J13;
